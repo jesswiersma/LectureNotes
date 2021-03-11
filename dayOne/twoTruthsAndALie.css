@@ -1,0 +1,38 @@
+h1{
+    color:lightgreen;
+    text-align: center;
+}
+h3{
+    color:blue;
+}
+p{
+    color:red;
+}
+div{
+    border-style:solid; 
+    border-color: black;
+    border-width: 10px;
+    border-radius: 30px;
+}
+.background1{
+    background-color: gray;
+}
+.background2{
+    border: 5px solid red;
+    background-color: lightgrey;
+    text-align: center;
+}
+.background3{
+    border: 10px dotted pink;
+    background-color: lightgrey;
+    text-align: center;
+}
+.background4{
+    border: 5px dashed purple;
+    background-color: lightgray;
+    text-align:center;
+}
+#align{
+    display: flex;
+    justify-content: space-evenly;
+}

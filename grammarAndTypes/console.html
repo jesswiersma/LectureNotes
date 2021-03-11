@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console</title>
+</head>
+<body>
+    <h1>The Console</h1>
+    <ul>
+        <li>Humans make errors. Gasp!</li>
+        <li>The browser is the home of the console.</li>
+        <li>The Console Object</li>
+        <ul>
+            <li>console.log()</li>
+            <!--For developmental use only. Only used while creating projects to see the data flow, to see if code is in the correct place, etc-->
+            <li>console.warn()</li>
+            <li>console.error()</li>
+        </ul>
+        <li>The console is used for debugging purposes ONLY</li>
+    </ul>
+    <script>
+        //console.log
+       console.log("This message is a string"); 
+
+       let name = "Jessica Wiersma"
+       console.log(name);
+
+       //console.warn
+       //does not interrupt code from executing, identified by yellow background
+       console.warn("This is a warning");
+
+       let warning = "uh oh!"
+       console.warn(warning);
+
+       //console.error
+       //does not interrupt the code from executing, identified by red background
+       console.error("This is an error message");
+
+       let err = "This looks real bad!"
+       console.error(err);
+    </script>
+</body>
+</html>
