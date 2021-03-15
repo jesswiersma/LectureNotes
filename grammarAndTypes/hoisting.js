@@ -12,3 +12,9 @@ b();
 function b() {
     console.log("I have been hoisted!")
 }
+
+
+
+function whatDoesItDo(val) {
+    return val ? 1 : 2;
+};

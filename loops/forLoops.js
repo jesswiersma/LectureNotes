@@ -52,3 +52,7 @@ for (let l = 0; l < count; l++ ){
 }
 //other solution: use charAt
 
+for (let j = 0; j < 5; j++) {
+    console.log(j + " ")
+}
+

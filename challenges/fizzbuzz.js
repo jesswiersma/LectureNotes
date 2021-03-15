@@ -65,3 +65,15 @@ console.log("Buzz"):
 (FB %3 == 0) ?
 console.log("Fizz") :
 console.log(FB) 
+
+/*
+FIZZBUZZ EXERCISE (conditionals and loops)
+************
+-Create a function that when invoked:
+    - executes a for loop running between the numbers 0 - 100
+    - for multiples of 3, instead of the number, console.log "Fizz"
+    - for multiples of 5 console.log "Buzz";
+    - for numbers which are multiples of BOTH 3 and 5, console.log "FizzBuzz".
+    - for any other number, console.log the value
+*/
+
